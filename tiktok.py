@@ -71,8 +71,8 @@ def get_data_by_url(url, video_count=100):
             'followers': followers,
             'following': following,
             'likes': likes,
-            # 'suggested_users': user_list,
-            # 'videos': video_list
+            'suggested_users': user_list,
+            'videos': video_list
         }}
 
         return result
